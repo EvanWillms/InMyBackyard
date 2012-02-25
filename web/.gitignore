@@ -1,1 +1,3 @@
-favicon.*
+# OS X dust
+.DS_Store
+docs/

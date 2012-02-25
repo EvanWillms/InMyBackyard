@@ -4,27 +4,13 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
-	| Database Query Logging
-	|--------------------------------------------------------------------------
-	|
-	| By default, the SQL, bindings, and execution time are logged in an array
-	| for you to review. They can be retrieved via the DB::profile() method.
-	| However, in some situations, you may want to disable logging for
-	| ultra high-volume database work. You can do so here.
-	|
-	*/
-
-	'profile' => true,
-
-	/*
-	|--------------------------------------------------------------------------
 	| Default Database Connection
 	|--------------------------------------------------------------------------
 	|
-	| The name of your default database connection. This connection will used
-	| as the default for all database operations unless a different name is
-	| given when performing said operation. This connection name should be
-	| listed in the array of connections below.
+	| The name of your default database connection.
+	|
+	| This connection will be the default for all database operations unless a
+	| different connection is specified when performing the operation.
 	|
 	*/
 
@@ -35,73 +21,38 @@ return array(
 	| Database Connections
 	|--------------------------------------------------------------------------
 	|
-	| All of the database connections used by your application. Many of your
-	| applications will no doubt only use one connection; however, you have
-	| the freedom to specify as many connections as you can handle.
+	| All of the database connections used by your application.
 	|
-	| All database work in Laravel is done through the PHP's PDO facilities,
-	| so make sure you have the PDO drivers for your particlar database of
-	| choice installed on your machine.
+	| Supported Drivers: 'mysql', 'pgsql', 'sqlite'.
 	|
-	| Drivers: 'mysql', 'pgsql', 'sqlsrv', 'sqlite'.
+	| Note: When using the SQLite driver, the path and "sqlite" extention will
+	|       be added automatically. You only need to specify the database name.
+	|
+	| Using a driver that isn't supported? You can still establish a PDO
+	| connection. Simply specify a driver and DSN option:
+	|
+	|		'odbc' => array(
+	|			'driver'   => 'odbc',
+	|			'dsn'      => 'your-dsn',
+	|			'username' => 'username',
+	|			'password' => 'password',
+	|		)
+	|
+	| Note: When using an unsupported driver, Eloquent and the fluent query
+	|       builder may not work as expected.
 	|
 	*/
 
 	'connections' => array(
 
-		'sqlite' => array(
-			'driver'   => 'sqlite',
-			'database' => 'application',
-			'prefix'   => '',
-		),
-
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'host'     => getenv('mysqlhost'),
+			'database' => getenv('mysqldb'),
+			'username' => getenv('mysqluser'),
+			'password' => getenv('mysqlpw'),
 			'charset'  => 'utf8',
-			'prefix'   => '',
 		),
-
-		'pgsql' => array(
-			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
-			'charset'  => 'utf8',
-			'prefix'   => '',
-		),
-
-		'sqlsrv' => array(
-			'driver'   => 'sqlsrv',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
-			'prefix'   => '',
-		),
-
-	),
-
-	/*
-	|--------------------------------------------------------------------------
-	| Redis Databases
-	|--------------------------------------------------------------------------
-	|
-	| Redis is an open source, fast, and advanced key-value store. However, it
-	| provides a richer set of commands than a typical key-value store such as
-	| APC or memcached. All the cool kids are using it.
-	|
-	| To get the scoop on Redis, check out: http://redis.io
-	|
-	*/
-
-	'redis' => array(
-
-		'default' => array('host' => '127.0.0.1', 'port' => 6379),
 
 	),
 
