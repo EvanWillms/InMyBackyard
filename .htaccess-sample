@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ /inmybackyard/public/$1
