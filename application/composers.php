@@ -35,7 +35,7 @@ return array(
 	|		'home.index' => array('name' => 'home', function($view)
 	|		{
 	|			//
-	|		})	
+	|		})
 	|
 	*/
 
