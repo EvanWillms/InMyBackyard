@@ -3,7 +3,7 @@
 return array(
 
 	'GET /' => function() {
-		return View::make('layouts.default');
+		return View::make('layouts.default')->nest('content', 'content.home')->nest('head', 'partials.head');
 	},
 
 	'GET /404' => function() {
