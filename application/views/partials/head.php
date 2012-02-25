@@ -24,3 +24,5 @@
   </head>
 
   <body>
+
+    <h1><a href="<?= URL::to_asset('/') ?>"><?= getenv('sitetitle') ?></a></h1>

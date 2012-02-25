@@ -8,6 +8,8 @@ return array(
 		return View::make('layouts.default')->nest('content', 'content.home')->nest('head', 'partials.head')->nest('footer', 'partials.footer');
 	},
 
+	'GET /user/create' => 'user.create',
+
 	'GET /404' => function() {
 		return Response::error('404');
 	},
