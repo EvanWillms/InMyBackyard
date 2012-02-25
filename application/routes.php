@@ -16,4 +16,8 @@ return array(
 		return Response::error('500');
 	},
 
+	'GET /500' => function() {
+		return Response::error('500');
+	},
+
 );
