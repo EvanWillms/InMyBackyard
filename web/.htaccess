@@ -1,2 +1,0 @@
-RewriteEngine on
-RewriteRule ^(.*)$ /inmybackyard/web/public/$1
