@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<Schema name="Road Closures" id="Road Closures">
+<SimpleField type="string" name="PROJECT_TITLE"/>
+<SimpleField type="string" name="STREET"/>
+<SimpleField type="string" name="LOCATION"/>
+<SimpleField type="string" name="EXPECTED_COMPLETION_DATE"/>
+<SimpleField type="string" name="URL_LINK"/>
+</Schema>
+<Style id="KMLStyler_2">
+<LabelStyle>
+</LabelStyle>
+<LineStyle>
+<color>ff0000ff</color>
+<colorMode>normal</colorMode>
+<width>3</width>
+</LineStyle>
+<PolyStyle>
+<colorMode>normal</colorMode>
+</PolyStyle>
+</Style>
+<name>road_closures</name>
+<visibility>1</visibility>
+<Folder id="kml_ft_Road Closures">
+<name>Road Closures</name>
+<Placemark id="kml_1">
+<name>Road Closure - 3200 Copley St</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 3200 Copley St
+STREET:COPLEY ST
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 21 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5993'&gt;Road Closure - 3200 Copley St&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 3200 Copley St</SimpleData>
+<SimpleData name="STREET">COPLEY ST</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 21 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5993'&gt;Road Closure - 3200 Copley St&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.055013471175,49.2557157152894,31.736 -123.05501529632,49.2552404244556,32.812 -123.055048359249,49.2551896396095,32.812 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_2">
+<name>Road Closure - 100 E 27TH AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 100 E 27TH AV
+STREET:E 27TH AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5995'&gt;Road Closure - 100 E 27TH AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 100 E 27TH AV</SimpleData>
+<SimpleData name="STREET">E 27TH AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5995'&gt;Road Closure - 100 E 27TH AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.103256286229,49.2472825487668,76.301 -123.103151688039,49.247258634425,76.233 -123.101748125083,49.2472353246826,74.552 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_3">
+<name>Road Closure - 100-300 Blk TALISMAN AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 100-300 Blk TALISMAN AV
+STREET:TALISMAN AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5994'&gt;Road Closure - 100-300 Blk TALISMAN AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 100-300 Blk TALISMAN AV</SimpleData>
+<SimpleData name="STREET">TALISMAN AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5994'&gt;Road Closure - 100-300 Blk TALISMAN AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.110397614331,49.2467769472436,70.385 -123.110422169324,49.2467839488463,70.351 -123.110476240952,49.246798639886,70.351 -123.11053070966,49.2468127008547,70.19 -123.110585547986,49.2468261407732,70.19 -123.11064072845,49.2468389596678,70.19 -123.110696251009,49.2468511395476,70.162 -123.11075207444,49.2468626804517,70.162 -123.110808212502,49.2468735913618,70.162 -123.110864623933,49.2468838543268,70.614 -123.11092130873,49.2468934693464,70.397 -123.110978239412,49.2469024364469,70.397 -123.111035388476,49.2469107466591,70.454 -123.111092769679,49.2469184089647,70.454 -123.111150328138,49.2469254143642,70.522 -123.11120807751,49.2469317538818,70.522 -123.111265976571,49.2469374455725,70.522 -123.111324025257,49.2469424624504,70.792 -123.111382196127,49.2469468225322,70.792 -123.111440475421,49.2469505168358,70.792 -123.111498849376,49.2469535363789,71.038 -123.11155729055,49.2469558991786,71.038 -123.111615785163,49.2469575872575,71.038 -123.112277574571,49.2469605115384,72.836 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_4">
+<name>Road Closure - 100-300 Blk TALISMAN AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 100-300 Blk TALISMAN AV
+STREET:TALISMAN AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5994'&gt;Road Closure - 100-300 Blk TALISMAN AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 100-300 Blk TALISMAN AV</SimpleData>
+<SimpleData name="STREET">TALISMAN AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5994'&gt;Road Closure - 100-300 Blk TALISMAN AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.110397614331,49.2467769472436,70.385 -123.110422169324,49.2467839488463,70.351 -123.110476240952,49.246798639886,70.351 -123.11053070966,49.2468127008547,70.19 -123.110585547986,49.2468261407732,70.19 -123.11064072845,49.2468389596678,70.19 -123.110696251009,49.2468511395476,70.162 -123.11075207444,49.2468626804517,70.162 -123.110808212502,49.2468735913618,70.162 -123.110864623933,49.2468838543268,70.614 -123.11092130873,49.2468934693464,70.397 -123.110978239412,49.2469024364469,70.397 -123.111035388476,49.2469107466591,70.454 -123.111092769679,49.2469184089647,70.454 -123.111150328138,49.2469254143642,70.522 -123.11120807751,49.2469317538818,70.522 -123.111265976571,49.2469374455725,70.522 -123.111324025257,49.2469424624504,70.792 -123.111382196127,49.2469468225322,70.792 -123.111440475421,49.2469505168358,70.792 -123.111498849376,49.2469535363789,71.038 -123.11155729055,49.2469558991786,71.038 -123.111615785163,49.2469575872575,71.038 -123.112277574571,49.2469605115384,72.836 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_5">
+<name>Road Closure - 6100-6200 BLK CEDARHURST ST</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 6100-6200 BLK CEDARHURST ST
+STREET:CEDARHURST ST
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5998'&gt;Road Closure - 6100-6200 BLK CEDARHURST ST&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 6100-6200 BLK CEDARHURST ST</SimpleData>
+<SimpleData name="STREET">CEDARHURST ST</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5998'&gt;Road Closure - 6100-6200 BLK CEDARHURST ST&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.171598736657,49.2310020241378,41.458 -123.17161899245,49.2293520045371,32.144 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_6">
+<name>Road Closure - 6100-6200 BLK CEDARHURST ST</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 6100-6200 BLK CEDARHURST ST
+STREET:CEDARHURST ST
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5998'&gt;Road Closure - 6100-6200 BLK CEDARHURST ST&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 6100-6200 BLK CEDARHURST ST</SimpleData>
+<SimpleData name="STREET">CEDARHURST ST</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5998'&gt;Road Closure - 6100-6200 BLK CEDARHURST ST&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.171598736657,49.2310020241378,41.458 -123.17161899245,49.2293520045371,32.144 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_7">
+<name>Road Closure - 400 BLK E 11TH AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 400 BLK E 11TH AV
+STREET:E 11TH AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 17 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5999'&gt;Road Closure - 400 BLK E 11TH AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 400 BLK E 11TH AV</SimpleData>
+<SimpleData name="STREET">E 11TH AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 17 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5999'&gt;Road Closure - 400 BLK E 11TH AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.094953970008,49.2606668708148,47.311 -123.093018612582,49.2606503973331,42.492 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_8">
+<name>Road Closure - 2700 BLK EUCLID AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 2700 BLK EUCLID AV
+STREET:EUCLID AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5988'&gt;Road Closure - 2700 BLK EUCLID AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 2700 BLK EUCLID AV</SimpleData>
+<SimpleData name="STREET">EUCLID AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5988'&gt;Road Closure - 2700 BLK EUCLID AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.050828834979,49.243281359401,92.98 -123.050285409546,49.2430544131497,91.255 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_9">
+<name>Road Closure - 100 E 27TH AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 100 E 27TH AV
+STREET:E 27TH AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5995'&gt;Road Closure - 100 E 27TH AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 100 E 27TH AV</SimpleData>
+<SimpleData name="STREET">E 27TH AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5995'&gt;Road Closure - 100 E 27TH AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.101748125083,49.2472353246826,74.552 -123.101172000315,49.247225339053,74.415 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_10">
+<name>Sewer Construction - 3500 W 31st Av</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Sewer Construction - 3500 W 31st Av
+STREET:W 31ST AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Mar 05 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5964'&gt;Sewer Construction - 3500 W 31st Av&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Sewer Construction - 3500 W 31st Av</SimpleData>
+<SimpleData name="STREET">W 31ST AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Mar 05 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5964'&gt;Sewer Construction - 3500 W 31st Av&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.182650879658,49.2442624459391,87.569 -123.184557065379,49.24427034141,81.345 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_11">
+<name>Road Closure - 2700 BLK EUCLID AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 2700 BLK EUCLID AV
+STREET:EUCLID AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5988'&gt;Road Closure - 2700 BLK EUCLID AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 2700 BLK EUCLID AV</SimpleData>
+<SimpleData name="STREET">EUCLID AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5988'&gt;Road Closure - 2700 BLK EUCLID AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.050285409546,49.2430544131497,91.255 -123.049013158471,49.242522783481,85.143 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_12">
+<name>Road Closure - 400 BLK E 11TH AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 400 BLK E 11TH AV
+STREET:E 11TH AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 17 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5999'&gt;Road Closure - 400 BLK E 11TH AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 400 BLK E 11TH AV</SimpleData>
+<SimpleData name="STREET">E 11TH AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 17 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5999'&gt;Road Closure - 400 BLK E 11TH AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.096175575286,49.2606769747382,48.213 -123.095555887109,49.2606718508038,47.589 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_13">
+<name>Road Closure - 400 BLK E 11TH AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 400 BLK E 11TH AV
+STREET:E 11TH AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 17 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5999'&gt;Road Closure - 400 BLK E 11TH AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 400 BLK E 11TH AV</SimpleData>
+<SimpleData name="STREET">E 11TH AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 17 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5999'&gt;Road Closure - 400 BLK E 11TH AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.095555887109,49.2606718508038,47.589 -123.094953970008,49.2606668708148,47.311 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_14">
+<name>Road Closure - 2700 BLK EUCLID AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 2700 BLK EUCLID AV
+STREET:EUCLID AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5988'&gt;Road Closure - 2700 BLK EUCLID AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 2700 BLK EUCLID AV</SimpleData>
+<SimpleData name="STREET">EUCLID AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5988'&gt;Road Closure - 2700 BLK EUCLID AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.049013158471,49.242522783481,85.143 -123.048903849209,49.2424771070056,84.92 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_15">
+<name>Road Closure - 3200 Copley St</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 3200 Copley St
+STREET:COPLEY ST
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 21 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5993'&gt;Road Closure - 3200 Copley St&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 3200 Copley St</SimpleData>
+<SimpleData name="STREET">COPLEY ST</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 21 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5993'&gt;Road Closure - 3200 Copley St&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.055048359249,49.2551896396095,32.812 -123.055261675353,49.254861841177,33.692 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_16">
+<name>Road Closure - 100-300 Blk TALISMAN AV</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Road Closure - 100-300 Blk TALISMAN AV
+STREET:TALISMAN AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Feb 20 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5994'&gt;Road Closure - 100-300 Blk TALISMAN AV&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Road Closure - 100-300 Blk TALISMAN AV</SimpleData>
+<SimpleData name="STREET">TALISMAN AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Feb 20 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5994'&gt;Road Closure - 100-300 Blk TALISMAN AV&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.10897255157,49.2460122350038,70.574 -123.108995392335,49.2460334599327,70.322 -123.109030016253,49.2460646763044,70.19 -123.109065477423,49.2460954780907,70.19 -123.109101748406,49.2461258833072,70.19 -123.109138829141,49.2461558649676,70.122 -123.109176692132,49.2461854141023,70.139 -123.109215351118,49.2462145306973,70.139 -123.10925477858,49.2462431967877,70.139 -123.109294960779,49.2462714123858,70.265 -123.109335883937,49.2462991595136,70.179 -123.109377548052,49.2463264381703,70.179 -123.109419925626,49.2463532393862,69.944 -123.109463016639,49.2463795541653,69.944 -123.109506807311,49.2464053645296,69.91 -123.109551270162,49.2464306705045,69.91 -123.109596405193,49.2464554720894,69.91 -123.109642198622,49.2464797513062,69.933 -123.109688622951,49.2465034991851,69.778 -123.109735678178,49.2465267157257,69.778 -123.109783350543,49.2465493919449,69.778 -123.109831612545,49.2465715188733,69.853 -123.109880464184,49.24659309651,69.853 -123.10992987794,49.2466141068903,69.853 -123.10997984007,49.2466345500268,69.853 -123.110030350555,49.2466544169235,70.162 -123.110081368174,49.2466737076193,70.162 -123.110132906644,49.2466924131051,70.139 -123.110184924725,49.2467105244247,70.087 -123.110237422416,49.2467280415774,70.087 -123.110290385935,49.2467449465856,70.087 -123.11034378784,49.2467612574653,70.385 -123.110397614331,49.2467769472436,70.385 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_17">
+<name>Sewer Construction - 3500 W 31st Av</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Sewer Construction - 3500 W 31st Av
+STREET:W 31ST AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Mar 05 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5964'&gt;Sewer Construction - 3500 W 31st Av&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Sewer Construction - 3500 W 31st Av</SimpleData>
+<SimpleData name="STREET">W 31ST AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Mar 05 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5964'&gt;Sewer Construction - 3500 W 31st Av&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.184557065379,49.24427034141,81.345 -123.185239244038,49.244273339759,79.813 </coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_18">
+<name>Sewer Construction - 3500 W 31st Av</name>
+<Snippet> </Snippet>
+<description>Attributes:
+PROJECT_TITLE:Sewer Construction - 3500 W 31st Av
+STREET:W 31ST AV
+LOCATION:
+EXPECTED_COMPLETION_DATE:Mar 05 2012
+URL_LINK:&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5964'&gt;Sewer Construction - 3500 W 31st Av&lt;/a&gt;
+</description>
+<styleUrl>#KMLStyler_2</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#Road Closures">
+<SimpleData name="PROJECT_TITLE">Sewer Construction - 3500 W 31st Av</SimpleData>
+<SimpleData name="STREET">W 31ST AV</SimpleData>
+<SimpleData name="LOCATION"></SimpleData>
+<SimpleData name="EXPECTED_COMPLETION_DATE">Mar 05 2012</SimpleData>
+<SimpleData name="URL_LINK">&lt;a href='http://vancouver.ca/roadahead_wa/ProjectOverView.aspx?ID=5964'&gt;Sewer Construction - 3500 W 31st Av&lt;/a&gt;</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<coordinates>-123.181938887636,49.2442597819026,90.356 -123.182650879658,49.2442624459391,87.569 </coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>
