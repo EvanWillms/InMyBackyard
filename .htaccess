@@ -1,2 +1,8 @@
 RewriteEngine on
-RewriteRule ^(.*)$ /web/public/$1
+RewriteRule ^(.*)$ /inmybackyard/public/$1
+
+# display php errors (development)
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_value error_reporting 2047

@@ -5,7 +5,7 @@
  */
 
 putenv('sitetitle=In My Backyard');
-putenv('url=localdev/inmybackyard/web');
+putenv('url=localdev/inmybackyard/');
 putenv('mysqlhost=localhost');
 putenv('mysqldb=inmb');
 putenv('mysqluser=root');
