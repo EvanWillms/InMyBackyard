@@ -3,7 +3,9 @@
 return array(
 
 	'GET /' => function() {
-		return View::make('layouts.default')->nest('content', 'content.home')->nest('head', 'partials.head');
+		Asset::add('styles', 'css/main.css');
+		Asset::add('jquery', 'js/jquery.js');
+		return View::make('layouts.default')->nest('content', 'content.home')->nest('head', 'partials.head')->nest('footer', 'partials.footer');
 	},
 
 	'GET /404' => function() {

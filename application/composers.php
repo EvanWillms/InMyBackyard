@@ -39,12 +39,4 @@ return array(
 	|
 	*/
 
-	'layouts.default' => function($view)
-	{
-			Asset::add('styles', 'css/main.css');
-			Asset::add('jquery', 'js/jquery.js');
-			$view->nest('head', 'partials.head');
-			$view->nest('footer', 'partials.footer');
-	},
-
 );
