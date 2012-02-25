@@ -1,6 +1,6 @@
 (ns imbloader.core
   (require [clojure.xml :as xml]
-           [clojure.contrib.sql :as sql]
+           [clojure.java.jdbc :as sql]
            [clojure.string :as s]))
 
 (def testloc "/Users/brian/Downloads/kml_road_ahead/road_closures.kml")
@@ -33,12 +33,12 @@
 
 
 (defn write [events]
-  (sql/with-connection* {:classname "oracle.jdbc.driver.OracleDriver"
-                  :subprotocol "oracle"
-                  :subname (str "thin:@//" host ":1521/" db)
-                  :user "joe"
-                  :password "secret"}
-                   (sql/insert-records "Events" events)))
+  (sql/with-connection {:classname "com.mysql.jdbc.Driver"
+          :subprotocol "mysql"
+          :subname "//localhost:3306/dummy"
+          :user "duser"
+          :password "dpass"} 
+                        (sql/insert-records "Events" events)))
 
 (defn loadfrom [uri]
   (let [file (getfile uri)
