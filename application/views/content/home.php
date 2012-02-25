@@ -7,8 +7,15 @@
 
 		<?
 		// this is to be perfected but it works for now...
-		$geocode = file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.urlencode($_GET['location']).'&sensor=false');
-		$output= json_decode($geocode);
+		$url = 'http://maps.google.com/maps/api/geocode/json?address='.urlencode($_GET['location']).'&sensor=false';
+	  $ch = curl_init();
+	  $timeout = 5;
+	  curl_setopt($ch,CURLOPT_URL,$url);
+	  curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+	  curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
+	  $data = curl_exec($ch);
+	  curl_close($ch);
+		$output = json_decode($data);
 		$lat = $output->results[0]->geometry->location->lat;
 		$long = $output->results[0]->geometry->location->lng;
 		$radius = 2; // 2 miles
