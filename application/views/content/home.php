@@ -51,7 +51,7 @@
 		  <fieldset>
 		    <legend>Your Area of interest</legend>
 		    <div class="control-group">
-		      <label class="control-label" for="location">Postal Code or Address</label>
+		      <label class="control-label" for="location">Postal Code or Address:</label>
 		      <div class="controls">
 		        <input type="text" class="input-xlarge" id="location" name="location">
 		        <input class="btn btn-primary" type="submit" value="Submit">
