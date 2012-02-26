@@ -31,7 +31,7 @@
 		    		echo '<p><strong>Event Description</strong>: '.$event->description.'</p>';
 		    		echo '<p><strong>Event Start Date</strong>: '.date('F jS Y', strtotime($event->start_date)).'</p>';
 		    		echo '<p><strong>Event End Date</strong>: '.date('F jS Y', strtotime($event->end_date)).'</p>';
-		    		echo '<p><strong>Email to contact regarding this event</strong>: '.$event->contact_email.'</p>';
+		    		echo '<p><strong>Email to contact regarding this event</strong>: <a href="mailto:'.$event->contact_email.'">'.$event->contact_email.'</a></p>';
 			    echo '</div>';
 
 	    	}
