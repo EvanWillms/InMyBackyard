@@ -1,5 +1,9 @@
-## Laravel - A PHP Framework For Web Artisans
+## In My Backyard
 
-Laravel is a clean and classy framework for PHP web development. Freeing you from spaghetti code, Laravel helps you create wonderful applications using simple, expressive syntax. Development should be a creative experience that you enjoy, not something that is painful. Enjoy the fresh air.
+A web application that:
 
-### [Official Website & Documentation](http://laravel.com)
+- Pushes personally relevant information on infrastructure, city planning and real estate developments
+
+- Provides a channel for direct feedback to appropriate stakeholders
+
+### [Our Webiste](http://inmybackyard.phpfogapp.com)
