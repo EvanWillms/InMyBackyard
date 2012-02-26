@@ -3,7 +3,7 @@
            [clojure.java.jdbc :as sql]
            [clojure.string :as s]))
 
-(def testloc "/Users/brian/Downloads/kml_road_ahead/road_closures.kml")
+(def testloc "../../testdata/road_closures.kml")
 
 (defn getfile [uri]
   "Load the kml file from the supplied uri"
@@ -35,10 +35,10 @@
 (defn write [events]
   (sql/with-connection {:classname "com.mysql.jdbc.Driver"
           :subprotocol "mysql"
-          :subname "//localhost:3306/dummy"
-          :user "duser"
-          :password "dpass"} 
-                        (sql/insert-records "Events" events)))
+          :subname "//localhost:8886/inmb"
+          :user "root"
+          :password "root"} 
+                        (sql/insert-records :events events)))
 
 (defn loadfrom [uri]
   (let [file (getfile uri)

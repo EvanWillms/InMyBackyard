@@ -18,7 +18,7 @@
 		$output = json_decode($data);
 		$lat = $output->results[0]->geometry->location->lat;
 		$long = $output->results[0]->geometry->location->lng;
-		$radius = 2; // 2 miles
+		$radius = 200000; // 2 miles
 
     $events = DB::query(sprintf("SELECT *, ( 3959 * acos( cos( radians('%s') ) * cos( radians( `latitude` ) ) * cos( radians( `longitude` ) - radians('%s') ) + sin( radians('%s') ) * sin( radians( `latitude` ) ) ) ) AS distance FROM events HAVING distance < '%s' ORDER BY distance LIMIT 0 , 18", $lat, $long, $lat, $radius));
 
